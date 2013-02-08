@@ -60,3 +60,7 @@ source $HOME/.bashrc.local
 date
 pwd
 
+#	Sudo completion
+if [ "$PS1" ]; then
+complete -cf sudo
+fi
